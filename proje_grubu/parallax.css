@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#809FED,#805BED);
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: medium;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+
+}
+header .logo{
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+header ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.anasayfa{
+    background: #fff;
+    color: #805BED;
+}
+section{
+    position: relative;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #100435,transparent);
+    z-index: 1000;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+section img#tree{
+    z-index: 10;
+}
+#text
+{
+    position: relative;
+    height: 100px;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 150px;
+    z-index: 9;
+
+    
+}
+.sec
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    background: #100435;
+    margin-bottom: 10px;
+    padding: 100px;
+
+    
+}
+.sec h2{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.sec h4{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.sec p
+{
+    color: rgb(255, 255, 255);
+}
+
+
+/*--------------------------------   Giriş Yap ve Kayıt ol alanı   -----------------------------------------------------*/
+
+.box{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 170px 900px ;
+    background:rgb(255, 255, 255) ;
+    padding: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 30px 5px rgba(85, 3, 85, 0.904);
+
+}
+.buttonBox{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #822fa81f;
+    border-radius: 30px;
+    
+
+}
+.toggle{
+    padding: 10px 25px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    outline: none;
+    position: relative;
+    font-weight: bold;
+    
+    
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#890ac48e,#28026e);
+    border-radius: 30px;
+}
+.inputs{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-alan{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+
+}
+.submitButton{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#890ac48e,#28026e);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+}
+.hatirla{
+    margin: 30px 10px 30px 0;
+}
+.kabul{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 14px;
+    bottom: 67px;
+    position: absolute;
+    font-family: sans-serif;
+}
+#giris{
+    left: 60px;
+}
+#kayit{
+    left: 460px;
+}
+
+.vr {
+  border-bottom: 5px solid #ffffff;
+  width: 550px;
+  border-radius: 25px;
+}
+
